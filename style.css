@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #457B9D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 110px;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 40px;
+    color: white;
+}
+
+.requesting {
+    height: 220px;
+    width: 250px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #e8cd7e;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.no {
+    position: absolute;
+    left: 695px;
+    transition: top 0.3s, left 0.3s;
+}
+
+.yes {
+    margin-right: 100px;
+}
